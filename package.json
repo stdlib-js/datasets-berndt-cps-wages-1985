@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/datasets-berndt-cps-wages-1985",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A random sample of 534 workers from the Current Population Survey (CPS) from 1985.",
   "license": "Apache-2.0",
   "author": {
