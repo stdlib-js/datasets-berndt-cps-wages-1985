@@ -1,0 +1,47 @@
+{
+  "name": "@stdlib/datasets-berndt-cps-wages-1985",
+  "version": "0.0.0",
+  "description": "A random sample of 534 workers from the Current Population Survey (CPS) from 1985.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/datasets-berndt-cps-wages-1985.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "datasets",
+    "dataset",
+    "data",
+    "cps",
+    "census",
+    "survey",
+    "population",
+    "wages",
+    "workers",
+    "determinants",
+    "pay",
+    "industry",
+    "work",
+    "salary",
+    "us",
+    "united",
+    "states",
+    "economics",
+    "econometrics",
+    "pay gap",
+    "statistics",
+    "stats",
+    "multiple regression",
+    "confounding",
+    "multicollinearity"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
