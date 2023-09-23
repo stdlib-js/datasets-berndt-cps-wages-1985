@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import cps from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@deno/mod.js';
+import cps from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@v0.1.0-deno/mod.js';
 ```
 
 #### cps()
@@ -96,7 +96,7 @@ Each `array` element has the following eleven fields:
 
 ```javascript
 import Plot from 'https://cdn.jsdelivr.net/gh/stdlib-js/plot@deno/mod.js';
-import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@deno/mod.js';
+import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@v0.1.0-deno/mod.js';
 
 var data;
 var plot;
