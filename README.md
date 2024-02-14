@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import cps from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-berndt-cps-wages-1985/tags). For example,
+
+```javascript
 import cps from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@v0.2.0-deno/mod.js';
 ```
 
@@ -96,7 +101,7 @@ Each `array` element has the following eleven fields:
 
 ```javascript
 import Plot from 'https://cdn.jsdelivr.net/gh/stdlib-js/plot@deno/mod.js';
-import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@v0.2.0-deno/mod.js';
+import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@deno/mod.js';
 
 var data;
 var plot;
