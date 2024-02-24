@@ -50,6 +50,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+cps = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-berndt-cps-wages-1985/tags). For example,
+
+```javascript
 cps = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@v0.2.1-umd/browser.js' )
 ```
 
@@ -62,7 +67,7 @@ var cps = require( 'path/to/vendor/umd/datasets-berndt-cps-wages-1985/index.js' 
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -123,7 +128,7 @@ Each `array` element has the following eleven fields:
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/plot@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@v0.2.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
