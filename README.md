@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import cps from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-berndt-cps-wages-1985/tags). For example,
+
+```javascript
 import cps from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@v0.2.2-esm/index.mjs';
 ```
 
@@ -101,7 +106,7 @@ Each `array` element has the following eleven fields:
 <script type="module">
 
 import Plot from 'https://cdn.jsdelivr.net/gh/stdlib-js/plot@esm/index.mjs';
-import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@v0.2.2-esm/index.mjs';
+import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@esm/index.mjs';
 
 var data;
 var plot;
