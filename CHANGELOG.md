@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-26)
+## Unreleased (2025-09-06)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`8b0b780`](https://github.com/stdlib-js/stdlib/commit/8b0b78084a2ff5d7a76ba3c5945b13d7f0906f4f) - **docs:** fix TypeScript declaration linting errors _(by Philipp Burckhardt)_
+-   [`c894b66`](https://github.com/stdlib-js/stdlib/commit/c894b664661bfb87286304b24dd5a1758ae482b7) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`aba885d`](https://github.com/stdlib-js/stdlib/commit/aba885d26ca59ff74005c624335ba969a95ed922) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`004ecc4`](https://github.com/stdlib-js/stdlib/commit/004ecc463270148af73d11dc328038de4a47bce6) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 
