@@ -41,119 +41,19 @@ limitations under the License.
 
 <!-- /.intro -->
 
-<section class="installation">
 
-## Installation
 
-```bash
-npm install @stdlib/datasets-berndt-cps-wages-1985
-```
 
-Alternatively,
 
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
--   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
 
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
 
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
 
-</section>
 
-<section class="usage">
 
-## Usage
-
-```javascript
-var cps = require( '@stdlib/datasets-berndt-cps-wages-1985' );
-```
-
-#### cps()
-
-Returns a random sample of 534 workers from the Current Population Survey (CPS) from 1985, including their wages and other characteristics.
-
-```javascript
-var data = cps();
-// returns [{...},{...},...]
-```
-
-Each `array` element has the following eleven fields:
-
--   **education**: number of years of education.
--   **south**: indicator variable for southern region (`1` if a person lives in the South; `0` if a person does not live in the South).
--   **gender**: gender of the person.
--   **experience**: number of years of work experience.
--   **union**: indicator variable for union membership (`1` if union member; `0` if not a union member).
--   **wage**: log-transformed wage (in dollars per hour).
--   **age**: age (in years).
--   **race**: ethnicity/race (`'white'`, `'hispanic'`, and `'other'`).
--   **occupation**: occupational category (`'management'`, `'sales'`, `'clerical'`, `'service'`, `'professional'`, and `'other'`).
--   **sector**: sector (`'other'`, `'manufacturing'`, or `'construction'`).
--   **married**: marital status (`0` if unmarried; `1` if married).
-
-</section>
-
-<!-- /.usage -->
-
-<section class="notes">
-
-## Notes
-
--   Based on residual plots, wages were log-transformed to stabilize the variance.
-
-</section>
-
-<!-- /.notes -->
-
-<section class="examples">
-
-## Examples
-
-<!-- eslint no-undef: "error" -->
-
-```javascript
-var Plot = require( '@stdlib/plot' );
-var dataset = require( '@stdlib/datasets-berndt-cps-wages-1985' );
-
-var data;
-var plot;
-var opts;
-var x;
-var y;
-var i;
-
-data = dataset();
-
-// Extract wage data...
-x = [];
-y = [];
-for ( i = 0; i < data.length; i++ ) {
-    x.push( data[ i ].age );
-    y.push( data[ i ].wage );
-}
-
-// Create a plot instance:
-opts = {
-    'lineStyle': 'none',
-    'symbols': 'closed-circle',
-    'xLabel': 'Age',
-    'yLabel': 'Wage',
-    'title': 'Age vs Wage'
-};
-plot = new Plot( [ x ], [ y ], opts );
-```
-
-</section>
-
-<!-- /.examples -->
-
-* * *
 
 <section class="cli">
 
-## CLI
+
 
 <section class="installation">
 
@@ -171,7 +71,7 @@ npm install -g @stdlib/datasets-berndt-cps-wages-1985-cli
 
 <section class="usage">
 
-### Usage
+## Usage
 
 ```text
 Usage: berndt-cps-wages-1985 [options]
@@ -189,7 +89,7 @@ Options:
 
 <section class="notes">
 
-### Notes
+## Notes
 
 -   The CLI supports two output formats: comma-separated values ([CSV][csv]) and newline-delimited JSON ([NDJSON][ndjson]). The default output format is [CSV][csv].
 
@@ -199,7 +99,7 @@ Options:
 
 <section class="examples">
 
-### Examples
+## Examples
 
 ```bash
 $ berndt-cps-wages-1985
@@ -244,6 +144,11 @@ The data files (databases) are licensed under an [Open Data Commons Public Domai
 
 <section class="related">
 
+## See Also
+
+-   <span class="package-name">[`@stdlib/datasets-berndt-cps-wages-1985`][@stdlib/datasets-berndt-cps-wages-1985]</span><span class="delimiter">: </span><span class="description">a random sample of 534 workers from the Current Population Survey (CPS) from 1985.</span>
+
+
 </section>
 
 <!-- /.related -->
@@ -261,7 +166,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-#### Community
+### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -279,8 +184,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-berndt-cps-wages-1985.svg
-[npm-url]: https://npmjs.org/package/@stdlib/datasets-berndt-cps-wages-1985
+[npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-berndt-cps-wages-1985-cli.svg
+[npm-url]: https://npmjs.org/package/@stdlib/datasets-berndt-cps-wages-1985-cli
 
 [test-image]: https://github.com/stdlib-js/datasets-berndt-cps-wages-1985/actions/workflows/test.yml/badge.svg?branch=main
 [test-url]: https://github.com/stdlib-js/datasets-berndt-cps-wages-1985/actions/workflows/test.yml?query=branch:main
