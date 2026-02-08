@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import cps from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@esm/index.mjs';
+import cps from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@v0.2.3-esm/index.mjs';
 ```
 
 #### cps()
@@ -101,7 +101,7 @@ Each `array` element has the following eleven fields:
 <script type="module">
 
 import Plot from 'https://cdn.jsdelivr.net/gh/stdlib-js/plot@esm/index.mjs';
-import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@esm/index.mjs';
+import dataset from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-berndt-cps-wages-1985@v0.2.3-esm/index.mjs';
 
 var data;
 var plot;
